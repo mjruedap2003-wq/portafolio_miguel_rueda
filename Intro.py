@@ -121,7 +121,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
   st.subheader("🗣️ Texto a Voz")
   try:
-    image = Image.open("txt_to_audio2.png")
+    image = Image.open("Juan_imagen_4.jpg")
     st.image(image, use_container_width=True)
   except FileNotFoundError:
     st.info("🖼️ txt_to_audio2.png")

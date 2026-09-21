@@ -94,14 +94,14 @@ st.markdown(
 # -------------------------------------------------------------
 # CABECERA Y SIDEBAR
 # -------------------------------------------------------------
-st.title("⚡ PORTAFOLIO MULTIMODAL DE IA ⚡")
+st.title("⚡ PORTAFOLIO MULTIMODAL MIGUEL RUEDA ⚡")
 
 with st.sidebar:
   st.subheader("💥 ¿Qué es esto?")
   parrafo = (
-      "¡La Inteligencia Artificial al rescate! Descubre cómo optimizar la toma"
+      "¡La Inteligencia Artificial es un parche! Descubre cómo optimizar la toma"
       " de decisiones, automatizar tareas rutinarias y analizar datos en"
-      " tiempo real con superpoderes digitales."
+      " tiempo real con herramientas digitales, todo para ayudar al ciudadano promedio en tareas de la vida cotidiana."
   )
   st.write(parrafo)
   st.divider()

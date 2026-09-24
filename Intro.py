@@ -239,4 +239,4 @@ with col3:
     except Exception:
         st.info("🖼️ Imagen: Emoji_tonto.jpg")
     st.write("Es hora de hacer el examen, nada de hacer trampas o quedas descalificado.")
-    st.markdown("[Me interesa](https://trabajo-miguel-parte-10-mlbso9f5rlggmfgmtyefge.streamlit.app/)")
+    st.markdown("[Hacer testeo](https://trabajo-miguel-parte-10-mlbso9f5rlggmfgmtyefge.streamlit.app/)")

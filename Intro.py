@@ -97,17 +97,17 @@ st.markdown(
 st.title("⚡ PORTAFOLIO MULTIMODAL MIGUEL RUEDA ⚡")
 
 with st.sidebar:
-  st.subheader("💥 ¿Qué es esto?")
-  parrafo = (
-      "¡La Inteligencia Artificial es un parche! Descubre cómo optimizar la toma"
-      " de decisiones, automatizar tareas rutinarias y analizar datos en"
-      " tiempo real con herramientas digitales, todo para ayudar al ciudadano promedio en tareas de la vida cotidiana."
-  )
-  st.write(parrafo)
-  st.divider()
-  st.markdown("### 🌐 Centro de Comando")
-  url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
-  st.markdown(f"[🚀 Repositorio Global]({url_ia})")
+    st.subheader("💥 ¿Qué es esto?")
+    parrafo = (
+        "¡La Inteligencia Artificial es un parche! Descubre cómo optimizar la toma"
+        " de decisiones, automatizar tareas rutinarias y analizar datos en"
+        " tiempo real con herramientas digitales, todo para ayudar al ciudadano promedio en tareas de la vida cotidiana."
+    )
+    st.write(parrafo)
+    st.divider()
+    st.markdown("### 🌐 Centro de Comando")
+    url_ia = "https://sites.google.com/view/aplicacionesdeia/inicio"
+    st.markdown(f"[🚀 Repositorio Global]({url_ia})")
 
 st.markdown(
     "### 🎬 ¡Explora los paneles y prueba las aplicaciones en vivo! 💥"
@@ -119,100 +119,99 @@ st.markdown(
 col1, col2, col3 = st.columns(3)
 
 with col1:
-  st.subheader("Mi amigo Juan")
-  try:
-    image = Image.open("Juan_imagen_4.jpg")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ txt_to_audio2.png")
-  st.write("Generación de audio dinámico a partir de texto.")
-  st.markdown("[▶️ Probar Audio](https://imultimod.streamlit.app/)")
+    st.subheader("Mi amigo Juan")
+    try:
+        image = Image.open("Juan_imagen_4.jpg")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: Juan_imagen_4.jpg (no disponible o corrupta)")
+    st.write("Generación de audio dinámico a partir de texto.")
+    st.markdown("[▶️ Probar Audio](https://imultimod.streamlit.app/)")
 
-  st.write("---")
+    st.write("---")
 
-  st.subheader("Lector de textos")
-  try:
-    image = Image.open("txt_to_audio.png")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ txt_to_audio.png")
-  st.write("Identificación y marcado de objetos en tiempo real.")
-  st.markdown("[🎯 Probar YOLO](https://yolov5cmc.streamlit.app/)")
+    st.subheader("Lector de textos")
+    try:
+        image = Image.open("txt_to_audio.png")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: txt_to_audio.png")
+    st.write("Identificación y marcado de objetos en tiempo real.")
+    st.markdown("[🎯 Probar YOLO](https://yolov5cmc.streamlit.app/)")
 
-  st.write("---")
+    st.write("---")
 
-  st.subheader("Traductor Melítico")
-  try:
-    image = Image.open("OIG5.jpg")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ OIG5.jpg")
-  st.write("Despliegue de modelos personalizados y entrenados.")
-  st.markdown(
-      "[⚡ Probar Modelo](https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/)"
-  )
+    st.subheader("Traductor Melítico")
+    try:
+        image = Image.open("OIG5.jpg")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: OIG5.jpg")
+    st.write("Despliegue de modelos personalizados y entrenados.")
+    st.markdown(
+        "[⚡ Probar Modelo](https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/)"
+    )
 
 with col2:
-  st.subheader("Aprendiendo a leer con voz a texto")
-  try:
-    image = Image.open("OIG8.jpg")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ OIG8.jpg")
-  st.write("Reconocimiento de voz con traductores inteligentes.")
-  st.markdown("[🎤 Dictar Voz](https://traductorw.streamlit.app/)")
+    st.subheader("Aprendiendo a leer con voz a texto")
+    try:
+        image = Image.open("OIG8.jpg")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: OIG8.jpg")
+    st.write("Reconocimiento de voz con traductores inteligentes.")
+    st.markdown("[🎤 Dictar Voz](https://traductorw.streamlit.app/)")
 
-  st.write("---")
+    st.write("---")
 
-  st.subheader("Lectura divertida de imagenes modo tortuga o modo liebre")
-  try:
-    image = Image.open("data_analisis.png")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ data_analisis.png")
-  st.write("Análisis autónomo de datos mediante agentes de IA.")
-  st.markdown("[📈 Analizar Datos](https://dataagente.streamlit.app/)")
+    st.subheader("Lectura divertida de imagenes modo tortuga o modo liebre")
+    try:
+        image = Image.open("data_analisis.png")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: data_analisis.png")
+    st.write("Análisis autónomo de datos mediante agentes de IA.")
+    st.markdown("[📈 Analizar Datos](https://dataagente.streamlit.app/)")
 
-  st.write("---")
+    st.write("---")
 
-  st.subheader("Análisis de los sentimientos")
-  try:
-    image = Image.open("OIG3.jpg")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ OIG3.jpg")
-  st.write("Transcripción de archivos de audio y video con Whisper.")
-  st.markdown("[🎬 Transcribir](https://transcript-whisper.streamlit.app/)")
+    st.subheader("Análisis de los sentimientos")
+    try:
+        image = Image.open("OIG3.jpg")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: OIG3.jpg")
+    st.write("Transcripción de archivos de audio y video con Whisper.")
+    st.markdown("[🎬 Transcribir](https://transcript-whisper.streamlit.app/)")
 
 with col3:
-  st.subheader("Auditor de ensayos en inglés para amigos")
-  try:
-    image = Image.open("Chat_pdf.png")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ Chat_pdf.png")
-  st.write("Consultas en contexto sobre documentos y archivos PDF.")
-  st.markdown("[💬 Chatear PDF](https://chatpdf-cc.streamlit.app/)")
+    st.subheader("Auditor de ensayos en inglés para amigos")
+    try:
+        image = Image.open("Chat_pdf.png")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: Chat_pdf.png")
+    st.write("Consultas en contexto sobre documentos y archivos PDF.")
+    st.markdown("[💬 Chatear PDF](https://chatpdf-cc.streamlit.app/)")
 
-  st.write("---")
+    st.write("---")
 
-  st.subheader("Asistente de lecturas BookMind")
-  try:
-    image = Image.open("OIG4.jpg")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ OIG4.jpg")
-  st.write("Análisis detallado e interpretación inteligente de imágenes.")
-  st.markdown("[👁️ Probar Visión](https://vision2-gpt4o.streamlit.app/)")
+    st.subheader("Asistente de lecturas BookMind")
+    try:
+        image = Image.open("OIG4.jpg")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: OIG4.jpg")
+    st.write("Análisis detallado e interpretación inteligente de imágenes.")
+    st.markdown("[👁️ Probar Visión](https://vision2-gpt4o.streamlit.app/)")
 
-  st.write("---")
+    st.write("---")
 
-  st.subheader("Detector de seres biologicos")
-  try:
-    image = Image.open("OIG6.jpg")
-    st.image(image, use_container_width=True)
-  except FileNotFoundError:
-    st.info("🖼️ OIG6.jpg")
-  st.write("Sistemas inteligentes interactuando con el entorno físico.")
-  st.markdown("[🌐 Ver Interacción](https://vision2-gpt4o.streamlit.app/)")
-
+    st.subheader("Detector de seres biologicos")
+    try:
+        image = Image.open("OIG6.jpg")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: OIG6.jpg")
+    st.write("Sistemas inteligentes interactuando con el entorno físico.")
+    st.markdown("[🌐 Ver Interacción](https://vision2-gpt4o.streamlit.app/)")

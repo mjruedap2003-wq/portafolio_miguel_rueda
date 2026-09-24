@@ -101,7 +101,7 @@ st.markdown(
 st.title("⚡ PORTAFOLIO MULTIMODAL MIGUEL RUEDA ⚡")
 
 with st.sidebar:
-    st.subheader("💥 ¿Qué es esto?")
+    st.subheader("💥 ¿Qué es esta monda'?")
     parrafo = (
         "¡La Inteligencia Artificial es un parche! Descubre cómo optimizar la toma"
         " de decisiones, automatizar tareas rutinarias y analizar datos en"

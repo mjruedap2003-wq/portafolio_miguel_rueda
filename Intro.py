@@ -132,7 +132,7 @@ with col1:
 
     st.subheader("Lector de textos")
     try:
-        image = Image.open("txt_to_audio.png")
+        image = Image.open("Lector_Batman.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: txt_to_audio.png")
@@ -141,9 +141,9 @@ with col1:
 
     st.write("---")
 
-    st.subheader("Traductor Melítico")
+    st.subheader("Traductor Melítico con Acentos Chistosos")
     try:
-        image = Image.open("OIG5.jpg")
+        image = Image.open("Funny_pizzaman.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG5.jpg")

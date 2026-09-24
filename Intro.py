@@ -131,7 +131,7 @@ with col1:
     except Exception:
         st.info("🖼️ Imagen: Juan_imagen_4.jpg")
     st.write("Un lugar para descubrir una historia y organizar textos.")
-    st.markdown("[Conoce la historia](https:https://trabajo-miguel-parte-1.streamlit.app/)")
+    st.markdown("[Conoce la historia](https:https:https://trabajo-miguel-parte-1-jxt6dvsafkjhms3fnt4vgi.streamlit.app/)")
 
     st.write("---")
 

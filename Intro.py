@@ -220,7 +220,7 @@ with col3:
     st.write("---")
 
     # Proyecto 9
-    st.subheader("Detector de seres biologicos")
+    st.subheader("Detector de seres biológicos")
     try:
         image = Image.open("Terminator.jfif")
         st.image(image, use_container_width=True)

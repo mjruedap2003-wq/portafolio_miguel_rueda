@@ -154,21 +154,21 @@ with col1:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Funny_pizzaman.jpg")
-    st.write("Despliegue de modelos personalizados y entrenados.")
+    st.write("¡Traduce tus textos y ríete de los acentos chisotosos!.")
     st.markdown(
-        "[⚡ Probar Modelo](https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/)"
+        "[¡Traduce ya!](https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/)"
     )
 
 with col2:
     # Proyecto 4
-    st.subheader("Aprendiendo a leer con voz a texto")
+    st.subheader("Aprendiendo a leer de texto a voz")
     try:
         image = Image.open("Hombre_profesor.jfif")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Hombre_profesor.jfif")
-    st.write("Reconocimiento de voz con traductores inteligentes.")
-    st.markdown("[🎤 Dictar Voz](https://traductorw.streamlit.app/)")
+    st.write("Toma la foto de un texto y escucha como suena.")
+    st.markdown("[Empezar](https://traductorw.streamlit.app/)")
 
     st.write("---")
 
@@ -179,8 +179,8 @@ with col2:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: tortuga_liebre.jfif")
-    st.write("Análisis autónomo de datos mediante agentes de IA.")
-    st.markdown("[📈 Analizar Datos](https://dataagente.streamlit.app/)")
+    st.write("Mira como la IA lee tus textos, con un tono lento y uno rápido.")
+    st.markdown("[Probar](https://dataagente.streamlit.app/)")
 
     st.write("---")
 
@@ -191,8 +191,8 @@ with col2:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: chica_llorando.jpg")
-    st.write("Transcripción de archivos de audio y video con Whisper.")
-    st.markdown("[🎬 Transcribir](https://transcript-whisper.streamlit.app/)")
+    st.write("¿Estás triste? ¿Feliz? ¡Mira como la IA detecta tus emociones!.")
+    st.markdown("[A sentir los sentimientos](https://transcript-whisper.streamlit.app/)")
 
 with col3:
     # Proyecto 7
@@ -202,8 +202,8 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Duolingo_Chistoso.jpg")
-    st.write("Consultas en contexto sobre documentos y archivos PDF.")
-    st.markdown("[💬 Chatear PDF](https://chatpdf-cc.streamlit.app/)")
+    st.write("Un lugar perfecto para aquellos vagos en inglés.")
+    st.markdown("[¡Ingresa tu ensayo ya!](https://chatpdf-cc.streamlit.app/)")
 
     st.write("---")
 
@@ -214,8 +214,9 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Nerd_imagen.jpg")
-    st.write("Análisis detallado e interpretación inteligente de imágenes.")
-    st.markdown("[👁️ Probar Visión](https://vision2-gpt4o.streamlit.app/)")
+    st.write("¿Quieres saber de donde proviene el texto? ¡Descubre sus orígenes con la ayuda 
+    de esto!.")
+    st.markdown("[Dale broki](https://vision2-gpt4o.streamlit.app/)")
 
     st.write("---")
 
@@ -226,8 +227,9 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Terminator.jfif")
-    st.write("Sistemas inteligentes interactuando con el entorno físico.")
-    st.markdown("[🌐 Ver Interacción](https://vision2-gpt4o.streamlit.app/)")
+    st.write("Los humanos y animales son la plaga de este mundo, la detección de seres 
+    vivos sera contenida.")
+    st.markdown("[Solo máquinas](https://vision2-gpt4o.streamlit.app/)")
 
     st.write("---")
 
@@ -238,5 +240,6 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Emoji_tonto.jpg")
-    st.write("Descripción de tu décimo proyecto de Inteligencia Artificial.")
-    st.markdown("[🚀 Probar App](https://streamlit.app/)")
+    st.write("¡Hora de mostrar tu cara! Esta IA es capaz de detectar tu estado emocional al ver 
+    tu rostro.")
+    st.markdown("[Me interesa](https://streamlit.app/)")

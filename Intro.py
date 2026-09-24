@@ -154,7 +154,7 @@ with col1:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Funny_pizzaman.jpg")
-    st.write("¡Traduce tus textos y ríete de los acentos chisotosos!.")
+    st.write("¡Traduce tus textos y ríete de los acentos chistosos!.")
     st.markdown(
         "[¡Traduce ya!](https://trabajo-miguel-parte-3-dhqwrkiwvqmbj4bwwfjfgf.streamlit.app/)"
     )

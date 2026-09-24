@@ -7,37 +7,36 @@ st.set_page_config(
 )
 
 # -------------------------------------------------------------
-# ESTILOS POP ART / CÓMIC CON CSS (FUENTE MÁS LEGIBLE Y UNICOLOR)
+# ESTILOS POP ART CON TÍTU LOS EN ROJO PLANO Y LEGIBLE
 # -------------------------------------------------------------
 st.markdown(
     """
     <style>
-    /* Tipografía limpia e imprimible para el texto, Bangers solo para títulos */
     @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;700;900&display=swap');
 
     .stApp {
-        background-color: #fef000; /* Amarillo Pop brillante */
+        background-color: #fef000; /* Amarillo Pop */
         background-image: radial-gradient(#ff0055 20%, transparent 20%);
         background-size: 16px 16px;
-        color: #1e1e1e !important; /* Un solo color oscuro para todo el texto */
+        color: #1e1e1e !important;
         font-family: 'Inter', sans-serif !important;
     }
 
-    /* Regla general de texto para mantener un solo color uniforme */
+    /* Regla general de texto */
     p, span, div, label, li {
         color: #1e1e1e !important;
     }
 
-    /* Títulos estilo Cómic */
-    h1, h2, h3, .stTitle {
+    /* Títulos en rojo plano, sin sombras oscuras ni bordes */
+    h1, h2, h3, .stTitle, [data-testid="stHeader"] {
         font-family: 'Bangers', cursive !important;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         color: #ff0055 !important;
-        text-shadow: 4px 4px 0px #000000, 7px 7px 0px #00e5ff;
+        text-shadow: none !important; /* Quita sombras coloridas o negras */
         text-transform: uppercase;
     }
 
-    /* Tarjetas de proyectos (Paneles de Cómic) */
+    /* Tarjetas de proyectos */
     div[data-testid="stColumn"] > div {
         background-color: #ffffff;
         border: 4px solid #000000;
@@ -64,7 +63,7 @@ st.markdown(
         text-shadow: none !important;
     }
 
-    /* Enlaces / Botones tipo Explosión Cómic */
+    /* Enlaces / Botones */
     a {
         display: inline-block;
         background-color: #ff0055 !important;
@@ -86,7 +85,7 @@ st.markdown(
         box-shadow: 6px 6px 0px #000000 !important;
     }
 
-    /* Ajuste de imágenes con marco de boceto */
+    /* Ajuste de imágenes */
     img {
         border: 3px solid #000000 !important;
         border-radius: 8px !important;
@@ -119,7 +118,7 @@ st.markdown(
 )
 
 # -------------------------------------------------------------
-# PANELES DE PROYECTOS (10 PROYECTOS DISTRIBUIDOS)
+# PANELES DE PROYECTOS (10 PROYECTOS CON TUS NOMBRES EXACTOS)
 # -------------------------------------------------------------
 col1, col2, col3 = st.columns(3)
 
@@ -154,7 +153,7 @@ with col1:
         image = Image.open("Funny_pizzaman.jpg")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: OIG5.jpg")
+        st.info("🖼️ Imagen: Funny_pizzaman.jpg")
     st.write("Despliegue de modelos personalizados y entrenados.")
     st.markdown(
         "[⚡ Probar Modelo](https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/)"
@@ -167,7 +166,7 @@ with col2:
         image = Image.open("Hombre_profesor.jfif")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: OIG8.jpg")
+        st.info("🖼️ Imagen: Hombre_profesor.jfif")
     st.write("Reconocimiento de voz con traductores inteligentes.")
     st.markdown("[🎤 Dictar Voz](https://traductorw.streamlit.app/)")
 
@@ -179,7 +178,7 @@ with col2:
         image = Image.open("tortuga_liebre.jfif")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: data_analisis.png")
+        st.info("🖼️ Imagen: tortuga_liebre.jfif")
     st.write("Análisis autónomo de datos mediante agentes de IA.")
     st.markdown("[📈 Analizar Datos](https://dataagente.streamlit.app/)")
 
@@ -191,7 +190,7 @@ with col2:
         image = Image.open("chica_llorando.jpg")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: OIG3.jpg")
+        st.info("🖼️ Imagen: chica_llorando.jpg")
     st.write("Transcripción de archivos de audio y video con Whisper.")
     st.markdown("[🎬 Transcribir](https://transcript-whisper.streamlit.app/)")
 
@@ -202,7 +201,7 @@ with col3:
         image = Image.open("Duolingo_Chistoso.jpg")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: Chat_pdf.png")
+        st.info("🖼️ Imagen: Duolingo_Chistoso.jpg")
     st.write("Consultas en contexto sobre documentos y archivos PDF.")
     st.markdown("[💬 Chatear PDF](https://chatpdf-cc.streamlit.app/)")
 
@@ -214,7 +213,7 @@ with col3:
         image = Image.open("Nerd_imagen.jpg")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: OIG4.jpg")
+        st.info("🖼️ Imagen: Nerd_imagen.jpg")
     st.write("Análisis detallado e interpretación inteligente de imágenes.")
     st.markdown("[👁️ Probar Visión](https://vision2-gpt4o.streamlit.app/)")
 
@@ -226,18 +225,18 @@ with col3:
         image = Image.open("Terminator.jfif")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: OIG6.jpg")
+        st.info("🖼️ Imagen: Terminator.jfif")
     st.write("Sistemas inteligentes interactuando con el entorno físico.")
     st.markdown("[🌐 Ver Interacción](https://vision2-gpt4o.streamlit.app/)")
 
     st.write("---")
 
-    # Proyecto 10 (NUEVO)
+    # Proyecto 10
     st.subheader("Detector de rostros")
     try:
         image = Image.open("Emoji_tonto.jpg")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: OIG7.jpg")
+        st.info("🖼️ Imagen: Emoji_tonto.jpg")
     st.write("Descripción de tu décimo proyecto de Inteligencia Artificial.")
     st.markdown("[🚀 Probar App](https://streamlit.app/)")

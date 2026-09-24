@@ -119,7 +119,7 @@ st.markdown(
 col1, col2, col3 = st.columns(3)
 
 with col1:
-  st.subheader("🗣️ Texto a Voz")
+  st.subheader("Mi amigo Juan")
   try:
     image = Image.open("Juan_imagen_4.jpg")
     st.image(image, use_container_width=True)
@@ -130,7 +130,7 @@ with col1:
 
   st.write("---")
 
-  st.subheader("🔍 Detección YOLO")
+  st.subheader("Lector de textos")
   try:
     image = Image.open("txt_to_audio.png")
     st.image(image, use_container_width=True)
@@ -141,7 +141,7 @@ with col1:
 
   st.write("---")
 
-  st.subheader("🤖 Modelos Custom")
+  st.subheader("Traductor Melítico")
   try:
     image = Image.open("OIG5.jpg")
     st.image(image, use_container_width=True)
@@ -153,7 +153,7 @@ with col1:
   )
 
 with col2:
-  st.subheader("🎙️ Voz a Texto")
+  st.subheader("Aprendiendo a leer con voz a texto")
   try:
     image = Image.open("OIG8.jpg")
     st.image(image, use_container_width=True)
@@ -164,7 +164,7 @@ with col2:
 
   st.write("---")
 
-  st.subheader("📊 Data Agents")
+  st.subheader("Lectura divertida de imagenes modo tortuga o modo liebre")
   try:
     image = Image.open("data_analisis.png")
     st.image(image, use_container_width=True)
@@ -175,7 +175,7 @@ with col2:
 
   st.write("---")
 
-  st.subheader("📝 Transcriptor")
+  st.subheader("Análisis de los sentimientos")
   try:
     image = Image.open("OIG3.jpg")
     st.image(image, use_container_width=True)
@@ -185,7 +185,7 @@ with col2:
   st.markdown("[🎬 Transcribir](https://transcript-whisper.streamlit.app/)")
 
 with col3:
-  st.subheader("📄 Chat PDF (RAG)")
+  st.subheader("Auditor de ensayos en inglés para amigos")
   try:
     image = Image.open("Chat_pdf.png")
     st.image(image, use_container_width=True)
@@ -196,7 +196,7 @@ with col3:
 
   st.write("---")
 
-  st.subheader("👁️ Visión GPT-4o")
+  st.subheader("Asistente de lecturas BookMind")
   try:
     image = Image.open("OIG4.jpg")
     st.image(image, use_container_width=True)
@@ -207,7 +207,7 @@ with col3:
 
   st.write("---")
 
-  st.subheader("🤖 Ciberfísico")
+  st.subheader("Detector de seres biologicos")
   try:
     image = Image.open("OIG6.jpg")
     st.image(image, use_container_width=True)

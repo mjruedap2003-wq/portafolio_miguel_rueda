@@ -136,9 +136,9 @@ with col1:
     st.write("---")
 
     # Proyecto 2
-    st.subheader("Lector_Batman.jpg")
+    st.subheader("Asistente de lectura épico")
     try:
-        image = Image.open("txt_to_audio.png")
+        image = Image.open("Lector_Batman.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: txt_to_audio.png")

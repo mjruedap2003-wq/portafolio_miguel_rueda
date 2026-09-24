@@ -7,20 +7,25 @@ st.set_page_config(
 )
 
 # -------------------------------------------------------------
-# ESTILOS POP ART / CÓMIC CON CSS
+# ESTILOS POP ART / CÓMIC CON CSS (FUENTE MÁS LEGIBLE Y UNICOLOR)
 # -------------------------------------------------------------
 st.markdown(
     """
     <style>
-    /* Tipografía estilo cómic y fondo con patrón de puntos (Ben-Day dots) */
-    @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Comic+Neue:wght@700&display=swap');
+    /* Tipografía limpia e imprimible para el texto, Bangers solo para títulos */
+    @import url('https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;700;900&display=swap');
 
     .stApp {
         background-color: #fef000; /* Amarillo Pop brillante */
         background-image: radial-gradient(#ff0055 20%, transparent 20%);
-        background-size: 16px 16px; /* Efecto de puntos de imprenta */
-        color: #000000;
-        font-family: 'Comic Neue', cursive;
+        background-size: 16px 16px;
+        color: #1e1e1e !important; /* Un solo color oscuro para todo el texto */
+        font-family: 'Inter', sans-serif !important;
+    }
+
+    /* Regla general de texto para mantener un solo color uniforme */
+    p, span, div, label, li {
+        color: #1e1e1e !important;
     }
 
     /* Títulos estilo Cómic */
@@ -37,7 +42,7 @@ st.markdown(
         background-color: #ffffff;
         border: 4px solid #000000;
         border-radius: 12px;
-        padding: 15px;
+        padding: 18px;
         box-shadow: 8px 8px 0px #000000;
         transition: transform 0.2s ease, box-shadow 0.2s ease;
         margin-bottom: 20px;
@@ -55,7 +60,7 @@ st.markdown(
     }
 
     section[data-testid="stSidebar"] h2, section[data-testid="stSidebar"] p {
-        color: #000000 !important;
+        color: #1e1e1e !important;
         text-shadow: none !important;
     }
 
@@ -114,25 +119,27 @@ st.markdown(
 )
 
 # -------------------------------------------------------------
-# PANELES DE PROYECTOS (3 COLUMNAS)
+# PANELES DE PROYECTOS (10 PROYECTOS DISTRIBUIDOS)
 # -------------------------------------------------------------
 col1, col2, col3 = st.columns(3)
 
 with col1:
+    # Proyecto 1
     st.subheader("Mi amigo Juan")
     try:
         image = Image.open("Juan_imagen_4.jpg")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: Juan_imagen_4.jpg (no disponible o corrupta)")
+        st.info("🖼️ Imagen: Juan_imagen_4.jpg")
     st.write("Generación de audio dinámico a partir de texto.")
     st.markdown("[▶️ Probar Audio](https://imultimod.streamlit.app/)")
 
     st.write("---")
 
+    # Proyecto 2
     st.subheader("Lector de textos")
     try:
-        image = Image.open("Lector_Batman.jpg")
+        image = Image.open("txt_to_audio.png")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: txt_to_audio.png")
@@ -141,9 +148,10 @@ with col1:
 
     st.write("---")
 
-    st.subheader("Traductor Melítico con Acentos Chistosos")
+    # Proyecto 3
+    st.subheader("Traductor Melítico")
     try:
-        image = Image.open("Funny_pizzaman.jpg")
+        image = Image.open("OIG5.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG5.jpg")
@@ -153,9 +161,10 @@ with col1:
     )
 
 with col2:
+    # Proyecto 4
     st.subheader("Aprendiendo a leer con voz a texto")
     try:
-        image = Image.open("Hombre_profesor.jfif")
+        image = Image.open("OIG8.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG8.jpg")
@@ -164,9 +173,10 @@ with col2:
 
     st.write("---")
 
+    # Proyecto 5
     st.subheader("Lectura divertida de imagenes modo tortuga o modo liebre")
     try:
-        image = Image.open("tortuga_liebre.jfif")
+        image = Image.open("data_analisis.png")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: data_analisis.png")
@@ -175,9 +185,10 @@ with col2:
 
     st.write("---")
 
+    # Proyecto 6
     st.subheader("Análisis de los sentimientos")
     try:
-        image = Image.open("chica_llorando.jpg")
+        image = Image.open("OIG3.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG3.jpg")
@@ -185,9 +196,10 @@ with col2:
     st.markdown("[🎬 Transcribir](https://transcript-whisper.streamlit.app/)")
 
 with col3:
+    # Proyecto 7
     st.subheader("Auditor de ensayos en inglés para amigos")
     try:
-        image = Image.open("Duolingo_Chistoso.jpg")
+        image = Image.open("Chat_pdf.png")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Chat_pdf.png")
@@ -196,9 +208,10 @@ with col3:
 
     st.write("---")
 
+    # Proyecto 8
     st.subheader("Asistente de lecturas BookMind")
     try:
-        image = Image.open("Nerd_imagen.jpg")
+        image = Image.open("OIG4.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG4.jpg")
@@ -207,11 +220,24 @@ with col3:
 
     st.write("---")
 
+    # Proyecto 9
     st.subheader("Detector de seres biologicos")
     try:
-        image = Image.open("Terminator.jfif")
+        image = Image.open("OIG6.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG6.jpg")
     st.write("Sistemas inteligentes interactuando con el entorno físico.")
     st.markdown("[🌐 Ver Interacción](https://vision2-gpt4o.streamlit.app/)")
+
+    st.write("---")
+
+    # Proyecto 10 (NUEVO)
+    st.subheader("Nuevo Proyecto IA")
+    try:
+        image = Image.open("OIG7.jpg")
+        st.image(image, use_container_width=True)
+    except Exception:
+        st.info("🖼️ Imagen: OIG7.jpg")
+    st.write("Descripción de tu décimo proyecto de Inteligencia Artificial.")
+    st.markdown("[🚀 Probar App](https://streamlit.app/)")

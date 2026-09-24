@@ -143,7 +143,7 @@ with col1:
     except Exception:
         st.info("🖼️ Imagen: txt_to_audio.png")
     st.write("Identificación y marcado de objetos en tiempo real.")
-    st.markdown("[🎯 Probar YOLO](https://yolov5cmc.streamlit.app/)")
+    st.markdown("[🎯 Probar YOLO](https://trabajo-miguel-parte-2-nj6ku4q7gjzmgtzr4ez8aq.streamlit.app/)")
 
     st.write("---")
 
@@ -156,7 +156,7 @@ with col1:
         st.info("🖼️ Imagen: Funny_pizzaman.jpg")
     st.write("¡Traduce tus textos y ríete de los acentos chisotosos!.")
     st.markdown(
-        "[¡Traduce ya!](https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/)"
+        "[¡Traduce ya!](https://trabajo-miguel-parte-3-dhqwrkiwvqmbj4bwwfjfgf.streamlit.app/)"
     )
 
 with col2:
@@ -168,7 +168,7 @@ with col2:
     except Exception:
         st.info("🖼️ Imagen: Hombre_profesor.jfif")
     st.write("Toma la foto de un texto y escucha como suena.")
-    st.markdown("[Empezar](https://traductorw.streamlit.app/)")
+    st.markdown("[Empezar](https://trabajo-miguel-parte-4-bx9at2guppzgtf2x4cglka.streamlit.app/)")
 
     st.write("---")
 

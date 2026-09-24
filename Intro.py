@@ -7,7 +7,7 @@ st.set_page_config(
 )
 
 # -------------------------------------------------------------
-# ESTILOS POP ART CON TÍTU LOS EN ROJO PLANO Y LEGIBLE
+# ESTILOS POP ART CON TÍTULOS EN ROJO PLANO Y LEGIBLE
 # -------------------------------------------------------------
 st.markdown(
     """
@@ -214,8 +214,7 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Nerd_imagen.jpg")
-    st.write("¿Quieres saber de donde proviene el texto? ¡Descubre sus orígenes con la ayuda 
-    de esto!.")
+    st.write("¿Quieres saber de donde proviene el texto? ¡Descubre sus orígenes con la ayuda de esto!.")
     st.markdown("[Dale broki](https://vision2-gpt4o.streamlit.app/)")
 
     st.write("---")
@@ -227,8 +226,7 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Terminator.jfif")
-    st.write("Los humanos y animales son la plaga de este mundo, la detección de seres 
-    vivos sera contenida.")
+    st.write("Los humanos y animales son la plaga de este mundo, la detección de seres vivos sera contenida.")
     st.markdown("[Solo máquinas](https://vision2-gpt4o.streamlit.app/)")
 
     st.write("---")
@@ -240,6 +238,5 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Emoji_tonto.jpg")
-    st.write("¡Hora de mostrar tu cara! Esta IA es capaz de detectar tu estado emocional al ver 
-    tu rostro.")
+    st.write("¡Hora de mostrar tu cara! Esta IA es capaz de detectar tu estado emocional al ver tu rostro.")
     st.markdown("[Me interesa](https://streamlit.app/)")

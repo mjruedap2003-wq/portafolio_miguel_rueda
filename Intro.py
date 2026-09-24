@@ -130,8 +130,8 @@ with col1:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Juan_imagen_4.jpg")
-    st.write("Generación de audio dinámico a partir de texto.")
-    st.markdown("[▶️ Probar Audio](https://imultimod.streamlit.app/)")
+    st.write("Un lugar para descubrir una historia y organizar textos.")
+    st.markdown("[Conoce la historia](https://imultimod.streamlit.app/)")
 
     st.write("---")
 

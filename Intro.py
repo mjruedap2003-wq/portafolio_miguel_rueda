@@ -235,7 +235,7 @@ with col3:
     # Proyecto 10 (NUEVO)
     st.subheader("Detector de rostros")
     try:
-        image = Image.open("OIG7.jpg")
+        image = Image.open("Emoji_tonto.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG7.jpg")

@@ -155,7 +155,7 @@ with col1:
 with col2:
     st.subheader("Aprendiendo a leer con voz a texto")
     try:
-        image = Image.open("OIG8.jpg")
+        image = Image.open("Hombre_profesor.jfif")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG8.jpg")
@@ -166,7 +166,7 @@ with col2:
 
     st.subheader("Lectura divertida de imagenes modo tortuga o modo liebre")
     try:
-        image = Image.open("data_analisis.png")
+        image = Image.open("tortuga_liebre.jfif")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: data_analisis.png")
@@ -177,7 +177,7 @@ with col2:
 
     st.subheader("Análisis de los sentimientos")
     try:
-        image = Image.open("OIG3.jpg")
+        image = Image.open("chica_llorando.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG3.jpg")
@@ -187,7 +187,7 @@ with col2:
 with col3:
     st.subheader("Auditor de ensayos en inglés para amigos")
     try:
-        image = Image.open("Chat_pdf.png")
+        image = Image.open("Duolingo_Chistoso.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Chat_pdf.png")
@@ -198,7 +198,7 @@ with col3:
 
     st.subheader("Asistente de lecturas BookMind")
     try:
-        image = Image.open("OIG4.jpg")
+        image = Image.open("Nerd_imagen.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG4.jpg")
@@ -209,7 +209,7 @@ with col3:
 
     st.subheader("Detector de seres biologicos")
     try:
-        image = Image.open("OIG6.jpg")
+        image = Image.open("Terminator.jfif")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: OIG6.jpg")

@@ -234,9 +234,9 @@ with col3:
     # Proyecto 10
     st.subheader("Detector de trampas parcial")
     try:
-        image = Image.open("Emoji_tonto.jpg")
+        image = Image.open("Profesor_desafiante.jpg")
         st.image(image, use_container_width=True)
     except Exception:
-        st.info("🖼️ Imagen: Emoji_tonto.jpg")
+        st.info("🖼️ Imagen: Profesor_desafiante.jpg")
     st.write("Es hora de hacer el examen, nada de hacer trampas o quedas descalificado.")
     st.markdown("[Hacer testeo](https://trabajo-miguel-parte-10-mlbso9f5rlggmfgmtyefge.streamlit.app/)")

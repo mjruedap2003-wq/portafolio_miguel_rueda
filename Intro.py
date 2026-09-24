@@ -180,7 +180,7 @@ with col2:
     except Exception:
         st.info("🖼️ Imagen: tortuga_liebre.jfif")
     st.write("Mira como la IA lee tus textos, con un tono lento y uno rápido.")
-    st.markdown("[Probar](https://dataagente.streamlit.app/)")
+    st.markdown("[Probar](https://trabajo-miguel-parte-5-5w9alyk2dibum3vhjavdzw.streamlit.app/)")
 
     st.write("---")
 
@@ -192,7 +192,7 @@ with col2:
     except Exception:
         st.info("🖼️ Imagen: chica_llorando.jpg")
     st.write("¿Estás triste? ¿Feliz? ¡Mira como la IA detecta tus emociones!.")
-    st.markdown("[A sentir los sentimientos](https://transcript-whisper.streamlit.app/)")
+    st.markdown("[A sentir los sentimientos](https://trabajo-miguel-parte-6-kynrnggve9ydzvxdrvtqgi.streamlit.app/)")
 
 with col3:
     # Proyecto 7
@@ -203,7 +203,7 @@ with col3:
     except Exception:
         st.info("🖼️ Imagen: Duolingo_Chistoso.jpg")
     st.write("Un lugar perfecto para aquellos vagos en inglés.")
-    st.markdown("[¡Ingresa tu ensayo ya!](https://chatpdf-cc.streamlit.app/)")
+    st.markdown("[¡Ingresa tu ensayo ya!](https://trabajo-miguel-parte-7-ajksjrhxc9jk2dkueamqhs.streamlit.app/)")
 
     st.write("---")
 
@@ -215,7 +215,7 @@ with col3:
     except Exception:
         st.info("🖼️ Imagen: Nerd_imagen.jpg")
     st.write("¿Quieres saber de donde proviene el texto? ¡Descubre sus orígenes con la ayuda de esto!.")
-    st.markdown("[Dale broki](https://vision2-gpt4o.streamlit.app/)")
+    st.markdown("[Dale broki](https://trabajo-miguel-parte-8-ekae2enmylryru7vknkur4.streamlit.app/)")
 
     st.write("---")
 
@@ -227,16 +227,16 @@ with col3:
     except Exception:
         st.info("🖼️ Imagen: Terminator.jfif")
     st.write("Los humanos y animales son la plaga de este mundo, la detección de seres vivos sera contenida.")
-    st.markdown("[Solo máquinas](https://vision2-gpt4o.streamlit.app/)")
+    st.markdown("[Solo máquinas](https://trabajo-miguel-parte-9-e9vueovzlek5mvnlg8zjxy.streamlit.app/)")
 
     st.write("---")
 
     # Proyecto 10
-    st.subheader("Detector de rostros")
+    st.subheader("Detector de trampas parcial")
     try:
         image = Image.open("Emoji_tonto.jpg")
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: Emoji_tonto.jpg")
-    st.write("¡Hora de mostrar tu cara! Esta IA es capaz de detectar tu estado emocional al ver tu rostro.")
-    st.markdown("[Me interesa](https://streamlit.app/)")
+    st.write("Es hora de hacer el examen, nada de hacer trampas o quedas descalificado.")
+    st.markdown("[Me interesa](https://trabajo-miguel-parte-10-mlbso9f5rlggmfgmtyefge.streamlit.app/)")

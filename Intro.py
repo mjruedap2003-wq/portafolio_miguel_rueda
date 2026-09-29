@@ -142,8 +142,8 @@ with col1:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ Imagen: txt_to_audio.png")
-    st.write("Identificación y marcado de objetos en tiempo real.")
-    st.markdown("[🎯 Probar YOLO](https://trabajo-miguel-parte-2-nj6ku4q7gjzmgtzr4ez8aq.streamlit.app/)")
+    st.write("Lectura de textos mediante audio generado.")
+    st.markdown("[🎯 Probar Asistente](https://trabajo-miguel-parte-2-nj6ku4q7gjzmgtzr4ez8aq.streamlit.app/)")
 
     st.write("---")
 

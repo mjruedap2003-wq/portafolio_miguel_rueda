@@ -231,24 +231,24 @@ with col2:
 
     # PROYECTO 6
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">📝 Whisper Transcriptor</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">📝 Detector de datos WOKWI</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG3.jpg'
         image = Image.open('OIG3.jpg')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG3.jpg]")
-    st.write("Transcripción avanzada para archivos de audio y video.")
+    st.write("Un lugar para recibir datos y almacenarlos bien radical.")
     # ESPACIO PARA TU LINK
-    url_6 = "https://transcript-whisper.streamlit.app/"
-    st.markdown(f'<a href="{url_6}" target="_blank" class="comic-btn">🎧 TRANSCODIR AUDIO</a>', unsafe_allow_html=True)
+    url_6 = "https://recepclase16-bqqrxmro9w7xukusux9ehb.streamlit.app/"
+    st.markdown(f'<a href="{url_6}" target="_blank" class="comic-btn">¡A chambear!</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # --- COLUMNA 3 ---
 with col3:
     # PROYECTO 7
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">📚 Chat PDF (RAG)</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">Centro de control con registro de datos y muchas luces WOKWI (RAG)</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'Chat_pdf.png'
         image = Image.open('Chat_pdf.png')
@@ -257,23 +257,23 @@ with col3:
         st.info("🖼️ [Pon aquí tu imagen: Chat_pdf.png]")
     st.write("Generación aumentada por recuperación sobre documentos PDF.")
     # ESPACIO PARA TU LINK
-    url_7 = "https://chatpdf-cc.streamlit.app/"
-    st.markdown(f'<a href="{url_7}" target="_blank" class="comic-btn">📖 CHAT CON PDF</a>', unsafe_allow_html=True)
+    url_7 = "https://mqttcontrolclase17-jfdma2u4qjpcdug4fbnwka.streamlit.app/"
+    st.markdown(f'<a href="{url_7}" target="_blank" class="comic-btn">A trabajar</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # PROYECTO 8
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">🖼️ Visión GPT-4o</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">Controlador de WOKWI con voz</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG4.jpg'
         image = Image.open('OIG4.jpg')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG4.jpg]")
-    st.write("Análisis detallado e interpretación multimodal de imágenes.")
+    st.write("Siente el poder al comandar una máquina con tu voz jajajaja.")
     # ESPACIO PARA TU LINK
-    url_8 = "https://vision2-gpt4o.streamlit.app/"
-    st.markdown(f'<a href="{url_8}" target="_blank" class="comic-btn">👁️ ANALIZAR IMAGEN</a>', unsafe_allow_html=True)
+    url_8 = "https://ctrlvoicetrabajo18-3gawjfns5jck2scudpnhvx.streamlit.app/"
+    st.markdown(f'<a href="{url_8}" target="_blank" class="comic-btn">A parlar</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # PROYECTO 9

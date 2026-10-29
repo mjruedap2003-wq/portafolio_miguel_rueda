@@ -157,7 +157,7 @@ with col1:
     st.markdown('<div class="comic-sub-title">Análisis de textos melos</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'txt_to_audio2.png'
-        image = Image.open('txt_to_audio2.png')
+        image = Image.open('Hombre_lupa.jfif')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: txt_to_audio2.png]")

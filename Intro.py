@@ -164,12 +164,12 @@ with col1:
     st.write("Generación de audio sintético a partir de texto.")
     # ESPACIO PARA TU LINK
     url_1 = "https://chatpdfmiguelparte11-kftvnxz9euhawnlsj5pbaw.streamlit.app/"
-    st.markdown(f'<a href="{url_1}" target="_blank" class="comic-btn">⚡ IR A TEXTO A VOZ</a>', unsafe_allow_html=True)
+    st.markdown(f'<a href="{url_1}" target="_blank" class="comic-btn">⚡ SUBE TU PDF GUACHO</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # PROYECTO 2
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">👁️ Detección YOLO</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">👁️ Máquina analizadora de imágenes</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'txt_to_audio.png'
         image = Image.open('txt_to_audio.png')
@@ -178,13 +178,13 @@ with col1:
         st.info("🖼️ [Pon aquí tu imagen: txt_to_audio.png]")
     st.write("Reconocimiento y localización de objetos en tiempo real.")
     # ESPACIO PARA TU LINK
-    url_2 = "https://yolov5cmc.streamlit.app/"
-    st.markdown(f'<a href="{url_2}" target="_blank" class="comic-btn">🎯 PROBAR YOLO</a>', unsafe_allow_html=True)
+    url_2 = "https://visionappmiguelparte12-7gu2eff2pryyvvc2eq9f2u.streamlit.app/"
+    st.markdown(f'<a href="{url_2}" target="_blank" class="comic-btn">🎯 PROBAR YA</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # PROYECTO 3
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">🧠 Entrenar Modelos</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">Tablero de dibujo ultra melítico</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG5.jpg'
         image = Image.open('OIG5.jpg')
@@ -193,8 +193,8 @@ with col1:
         st.info("🖼️ [Pon aquí tu imagen: OIG5.jpg]")
     st.write("Demostración de uso y despliegue de modelos personalizados.")
     # ESPACIO PARA TU LINK
-    url_3 = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
-    st.markdown(f'<a href="{url_3}" target="_blank" class="comic-btn">🧪 VER MODELO</a>', unsafe_allow_html=True)
+    url_3 = "https://tableromiguelparte13-bfx3vrq4u3hnedrvf7heaf.streamlit.app/"
+    st.markdown(f'<a href="{url_3}" target="_blank" class="comic-btn">¡A dibujar!</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
 # --- COLUMNA 2 ---

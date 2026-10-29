@@ -139,11 +139,11 @@ with st.sidebar:
     st.markdown(f'<a href="{url_ia}" target="_blank" class="comic-btn">🚀 VER GUÍA DE EJERCICIOS</a>', unsafe_allow_html=True)
 
 # 4. ENCABEZADO PRINCIPAL
-st.markdown('<h1 class="comic-title">⚡ APLICACIONES DE INTELIGENCIA ARTIFICIAL 🎨</h1>', unsafe_allow_html=True)
+st.markdown('<h1 class="comic-title">⚡ APLICACIONES DE INTELIGENCIA ARTIFICIAL Y OTRAS MONDAS 🎨</h1>', unsafe_allow_html=True)
 
 st.markdown("""
     <div class="speech-bubble">
-        💬 ¡Explora la galería de proyectos! Haz clic en cada viñeta para interactuar con las aplicaciones y modelos desplegados en Streamlit.
+        💬 ¡Explora la galería de proyectos! Observa las obras hechas por Miguelichi, algunas usando IA, otras dibujos y por último otras páginas como WOKWI.
     </div>
 """, unsafe_allow_html=True)
 

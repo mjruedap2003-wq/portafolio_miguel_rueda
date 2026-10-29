@@ -154,7 +154,7 @@ col1, col2, col3 = st.columns(3)
 with col1:
     # PROYECTO 1
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">🎙️ Texto a Voz</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">Análisis de textos melos</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'txt_to_audio2.png'
         image = Image.open('txt_to_audio2.png')
@@ -163,7 +163,7 @@ with col1:
         st.info("🖼️ [Pon aquí tu imagen: txt_to_audio2.png]")
     st.write("Generación de audio sintético a partir de texto.")
     # ESPACIO PARA TU LINK
-    url_1 = "https://imultimod.streamlit.app/"
+    url_1 = "https://chatpdfmiguelparte11-kftvnxz9euhawnlsj5pbaw.streamlit.app/"
     st.markdown(f'<a href="{url_1}" target="_blank" class="comic-btn">⚡ IR A TEXTO A VOZ</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 

@@ -161,7 +161,7 @@ with col1:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: txt_to_audio2.png]")
-    st.write("Generación de audio sintético a partir de texto.")
+    st.write("Un lugar perfecto para analizar todos tus textos, es casi que hasta mágico, solo que requiere una IA a la cual toca meterle PLATA, buhhhhhh.")
     # ESPACIO PARA TU LINK
     url_1 = "https://chatpdfmiguelparte11-kftvnxz9euhawnlsj5pbaw.streamlit.app/"
     st.markdown(f'<a href="{url_1}" target="_blank" class="comic-btn">⚡ SUBE TU PDF GUACHO</a>', unsafe_allow_html=True)
@@ -176,7 +176,7 @@ with col1:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: txt_to_audio.png]")
-    st.write("Reconocimiento y localización de objetos en tiempo real.")
+    st.write("Esta maravilla análiza imágenes, incluso, hasta los colores y algunas cositas más.")
     # ESPACIO PARA TU LINK
     url_2 = "https://visionappmiguelparte12-7gu2eff2pryyvvc2eq9f2u.streamlit.app/"
     st.markdown(f'<a href="{url_2}" target="_blank" class="comic-btn">🎯 PROBAR YA</a>', unsafe_allow_html=True)
@@ -191,7 +191,7 @@ with col1:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG5.jpg]")
-    st.write("Demostración de uso y despliegue de modelos personalizados.")
+    st.write("Una página chimba para dibujar y retarte a hacer cosas bien bonitas.")
     # ESPACIO PARA TU LINK
     url_3 = "https://tableromiguelparte13-bfx3vrq4u3hnedrvf7heaf.streamlit.app/"
     st.markdown(f'<a href="{url_3}" target="_blank" class="comic-btn">¡A dibujar!</a>', unsafe_allow_html=True)
@@ -238,7 +238,7 @@ with col2:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG3.jpg]")
-    st.write("Un lugar para recibir datos y almacenarlos bien radical.")
+    st.write("Recibe datos y almacenalos a lo bien radical.")
     # ESPACIO PARA TU LINK
     url_6 = "https://recepclase16-bqqrxmro9w7xukusux9ehb.streamlit.app/"
     st.markdown(f'<a href="{url_6}" target="_blank" class="comic-btn">¡A chambear!</a>', unsafe_allow_html=True)
@@ -255,7 +255,7 @@ with col3:
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: Chat_pdf.png]")
-    st.write("Generación aumentada por recuperación sobre documentos PDF.")
+    st.write("¡Obten datos con WOKWI y observalos como si estuvieras en un propio centro de control futurista manín!.")
     # ESPACIO PARA TU LINK
     url_7 = "https://mqttcontrolclase17-jfdma2u4qjpcdug4fbnwka.streamlit.app/"
     st.markdown(f'<a href="{url_7}" target="_blank" class="comic-btn">A trabajar</a>', unsafe_allow_html=True)

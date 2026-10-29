@@ -128,8 +128,7 @@ with st.sidebar:
     st.subheader("🤖 Aplicaciones con IA")
     
     parrafo = (
-        "¡Bienvenido! Esta es la segunda parte de los portafolios de Miguel Rueda, alias Miguelato, alias Miguelichi, alias Migueoche, 
-        espero le guste profe."
+        "¡Bienvenido! Esta es la segunda parte de los portafolios de Miguel Rueda, alias Miguelato, alias Miguelichi, alias Migueoche, espero le guste profe."
     )
     st.write(parrafo)
 

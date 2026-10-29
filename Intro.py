@@ -201,31 +201,31 @@ with col1:
 with col2:
     # PROYECTO 4
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">🗣️ Voz a Texto</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">¡Calculadora mágica infantil!</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG8.jpg'
         image = Image.open('OIG8.jpg')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG8.jpg]")
-    st.write("Transcripción e interpretación de comandos vocales.")
+    st.write("¡Dibuja números y aprende operaciones básicas!.")
     # ESPACIO PARA TU LINK
-    url_4 = "https://traductorw.streamlit.app/"
-    st.markdown(f'<a href="{url_4}" target="_blank" class="comic-btn">🎙️ PROBAR TRADUCTOR</a>', unsafe_allow_html=True)
+    url_4 = "https://apptrabajo14-i6q3ixkxyngp5aefdc5pbx.streamlit.app/"
+    st.markdown(f'<a href="{url_4}" target="_blank" class="comic-btn">Empezar</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
     # PROYECTO 5
     st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">📊 Agentes de Datos</div>', unsafe_allow_html=True)
+    st.markdown('<div class="comic-sub-title">El rincón del artista</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'data_analisis.png'
         image = Image.open('data_analisis.png')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: data_analisis.png]")
-    st.write("Análisis automatizado de fuentes de datos mediante IA.")
+    st.write("Un lugar increíble para hacer collages y nombrar tus obras maestras broki.")
     # ESPACIO PARA TU LINK
-    url_5 = "https://dataagente.streamlit.app/"
+    url_5 = "https://trabajomiguelparte15-kz6h5393eeyny8wynq6uak.streamlit.app/"
     st.markdown(f'<a href="{url_5}" target="_blank" class="comic-btn">📈 ANALIZAR DATOS</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 

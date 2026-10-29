@@ -172,7 +172,7 @@ with col1:
     st.markdown('<div class="comic-sub-title">👁️ Máquina analizadora de imágenes</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'txt_to_audio.png'
-        image = Image.open('txt_to_audio.png')
+        image = Image.open('Gustavito.png')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: txt_to_audio.png]")
@@ -234,7 +234,7 @@ with col2:
     st.markdown('<div class="comic-sub-title">📝 Detector de datos WOKWI</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG3.jpg'
-        image = Image.open('satelite_melo')
+        image = Image.open('satelite_melo.jpg')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG3.jpg]")

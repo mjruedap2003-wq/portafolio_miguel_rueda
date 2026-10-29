@@ -276,17 +276,3 @@ with col3:
     st.markdown(f'<a href="{url_8}" target="_blank" class="comic-btn">A parlar</a>', unsafe_allow_html=True)
     st.markdown('</div>', unsafe_allow_html=True)
 
-    # PROYECTO 9
-    st.markdown('<div class="comic-card">', unsafe_allow_html=True)
-    st.markdown('<div class="comic-sub-title">🤖 Sistema Ciberfísico</div>', unsafe_allow_html=True)
-    try:
-        # ESPACIO PARA TU IMAGEN: 'OIG6.jpg'
-        image = Image.open('OIG6.jpg')
-        st.image(image, use_container_width=True)
-    except Exception:
-        st.info("🖼️ [Pon aquí tu imagen: OIG6.jpg]")
-    st.write("Interacción de la IA con componentes e interfaces físicas.")
-    # ESPACIO PARA TU LINK
-    url_9 = "https://vision2-gpt4o.streamlit.app/"
-    st.markdown(f'<a href="{url_9}" target="_blank" class="comic-btn">🌐 CIBER-INTERACCIÓN</a>', unsafe_allow_html=True)
-    st.markdown('</div>', unsafe_allow_html=True)

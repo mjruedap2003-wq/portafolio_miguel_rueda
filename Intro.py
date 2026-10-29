@@ -187,7 +187,7 @@ with col1:
     st.markdown('<div class="comic-sub-title">Tablero de dibujo ultra melítico</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG5.jpg'
-        image = Image.open('OIG5.jpg')
+        image = Image.open('tablero_cartoon.jfif')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG5.jpg]")
@@ -204,7 +204,7 @@ with col2:
     st.markdown('<div class="comic-sub-title">¡Calculadora mágica infantil!</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG8.jpg'
-        image = Image.open('OIG8.jpg')
+        image = Image.open('Niño_calculadora.jpg')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG8.jpg]")
@@ -219,7 +219,7 @@ with col2:
     st.markdown('<div class="comic-sub-title">El rincón del artista</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'data_analisis.png'
-        image = Image.open('data_analisis.png')
+        image = Image.open('artista_cartoon.jpg')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: data_analisis.png]")
@@ -234,7 +234,7 @@ with col2:
     st.markdown('<div class="comic-sub-title">📝 Detector de datos WOKWI</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG3.jpg'
-        image = Image.open('OIG3.jpg')
+        image = Image.open('satelite_melo')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG3.jpg]")
@@ -251,7 +251,7 @@ with col3:
     st.markdown('<div class="comic-sub-title">Centro de control con registro de datos y muchas luces WOKWI (RAG)</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'Chat_pdf.png'
-        image = Image.open('Chat_pdf.png')
+        image = Image.open('centro_control.jfif')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: Chat_pdf.png]")
@@ -266,7 +266,7 @@ with col3:
     st.markdown('<div class="comic-sub-title">Controlador de WOKWI con voz</div>', unsafe_allow_html=True)
     try:
         # ESPACIO PARA TU IMAGEN: 'OIG4.jpg'
-        image = Image.open('OIG4.jpg')
+        image = Image.open('Hombre_micro.jpg')
         st.image(image, use_container_width=True)
     except Exception:
         st.info("🖼️ [Pon aquí tu imagen: OIG4.jpg]")

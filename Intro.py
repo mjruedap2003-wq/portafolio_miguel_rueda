@@ -128,9 +128,8 @@ with st.sidebar:
     st.subheader("🤖 Aplicaciones con IA")
     
     parrafo = (
-        "¡Bienvenido a la central de superpoderes! La Inteligencia Artificial "
-        "permite mejorar la toma de decisiones con datos, automatizar tareas "
-        "rutinarias y proporcionar análisis avanzados en tiempo real."
+        "¡Bienvenido! Esta es la segunda parte de los portafolios de Miguel Rueda, alias Miguelato, alias Miguelichi, alias Migueoche, 
+        espero le guste profe."
     )
     st.write(parrafo)
 
